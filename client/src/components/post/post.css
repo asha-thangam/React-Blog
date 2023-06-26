@@ -59,3 +59,8 @@
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
   }
+  .linkStyle {
+    text-decoration: none;
+    color: inherit;
+  }
+  
