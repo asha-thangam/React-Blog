@@ -1,12 +1,18 @@
 import './sidebar.css'
-
+import logo from "./dev-insights.png"
+// https://www.logomaker.net/logo-maker/dashboard
 export default function Sidebar() {
   return (
     <div className="sidebar">
      <div className="sidebarItem">
-        <span className="sidebarTitle">ABOUT ME</span>
-        <img src="https://themes-themegoods.b-cdn.net/grandblog/demo/wp-content/uploads/2015/11/aboutme.jpg" />
-        <p>Lorem Ipsum is simply dummy text of the printing when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <span className="sidebarTitle">ABOUT US</span>
+        <img src={logo}/>
+        <p>
+         Welcome to DevInsights!<br/>
+         &emsp; DevInsights, we believe in empowering developers and tech enthusiasts to share their insights, knowledge, and experiences with the world. We provide a platform for individuals to express their unique perspectives, discoveries, and innovative ideas in the vast realm of technology.
+         <br />
+         &emsp;Start your DevInsights journey today and let your voice be heard!
+        </p>
      </div>
      <div className="sidebarItem">
         <span className="sidebarTitle">CATEGORIES</span>
